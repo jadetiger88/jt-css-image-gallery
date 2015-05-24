@@ -66,9 +66,9 @@ aside {
 
 nav a {
 	line-height: 2.2em;
-	padding: 10px 0px;
+	padding: 10px 20px;
 	float: left;
-	width: 100%;
+	width: 80%;
 }
 
 nav a.active {
