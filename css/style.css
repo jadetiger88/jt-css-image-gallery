@@ -102,9 +102,36 @@ footer {
 		width: 95%;
 	}
 
+header {
+	height: 80px;
+	margin-bottom: 20px;
+	color: #fff;
+	background-color: #1f2c36;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+
+.logo {
+	height: 80%;
+	padding-top: 0px;
+}
 	aside, section {
 		width: 100%;
 		float: none;
+	}
+
+	section {
+		position: relative;
+		top: 140px;
+		z-index: 1;
+	}
+
+	aside {
+		position: fixed;
+		height: 50px;
+		top: 80px;
+		left: 0;
 	}
 
 	.gallery img {
